@@ -1,0 +1,247 @@
+@media (max-width: 64rem) {
+  .person__decor--top {
+    left: -1.5rem;
+  }
+
+  .person__decor--bottom {
+    right: -1.5rem;
+  }
+}
+
+@media (max-width: 56rem) {
+  .intro__inner {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "content"
+      "media"
+      "actions";
+    row-gap: clamp(1.25rem, 4vw, 2rem);
+  }
+}
+
+@media (max-width: 48rem) {
+  .intro {
+    padding: 2rem 1.25rem;
+  }
+
+  .intro__eyebrow {
+    font-size: clamp(1.0rem, 5vw, 1.2rem);
+  }
+
+  .intro__title {
+    font-size: clamp(2.6rem, 12vw, 4rem);
+    transform: rotate(-1deg);
+  }
+
+  .intro__lead {
+    font-size: 0.98rem;
+  }
+
+  .intro__decor--leaves {
+    top: 0.5rem;
+    left: 0.25rem;
+    width: clamp(4rem, 16vw, 6rem);
+  }
+
+  .intro__decor--brush {
+    top: 0.75rem;
+    right: 0.25rem;
+    width: clamp(3.5rem, 14vw, 5rem);
+  }
+
+  .intro__decor--bottom {
+    display: none;
+  }
+
+  .intro__actions {
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro__hint {
+    text-align: center;
+  }
+
+  .intro__button {
+    padding: 0.85rem 1.6rem;
+  }
+
+  .carousel__slide--cover {
+    padding: 2.5rem 1.5rem calc(var(--navigation-height) + 2rem);
+  }
+
+  .carousel__slide--person {
+    padding: 1.75rem 1.25rem calc(var(--navigation-height) + 1.25rem);
+  }
+
+  .cover__title {
+    font-size: clamp(3.4rem, 16vw, 7.5rem);
+    transform: rotate(-2deg);
+  }
+
+  .cover__subtitle {
+    max-width: 32ch;
+    font-size: clamp(0.95rem, 3.4vw, 1.2rem);
+  }
+
+  .cover__decor--leaves {
+    top: 0.5rem;
+    left: 0.25rem;
+    width: clamp(4.5rem, 18vw, 6.5rem);
+  }
+
+  .cover__decor--brush {
+    top: 0.75rem;
+    right: 0.25rem;
+    width: clamp(3.5rem, 16vw, 5rem);
+  }
+
+  .person {
+    max-width: min(100%, 26rem, 62vh);
+  }
+
+  .person__decor--top {
+    top: -1.25rem;
+    left: -1rem;
+    width: clamp(4rem, 14vw, 6rem);
+  }
+
+  .person__decor--bottom {
+    right: -0.75rem;
+    bottom: -1.75rem;
+    width: clamp(5rem, 18vw, 7rem);
+  }
+
+  .person__name {
+    font-size: clamp(1.7rem, 8vw, 2.4rem);
+  }
+
+  .person__brush {
+    width: min(106%, 30rem);
+  }
+
+  .modal {
+    padding: 0;
+    align-items: stretch;
+  }
+
+  .modal__dialog {
+    width: 100%;
+    max-height: 100dvh;
+    min-height: 100dvh;
+    border-radius: 0;
+  }
+
+  .modal__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 3.75rem 1.25rem 1.75rem;
+  }
+
+  .modal__media {
+    position: relative;
+    width: min(100%, 22rem);
+    margin-inline: auto;
+  }
+
+  .modal__photo {
+    aspect-ratio: 1 / 1;
+  }
+
+  .modal__photo {
+    aspect-ratio: 3 / 4;
+  }
+
+  .modal__brush {
+    width: min(104%, 22rem);
+  }
+
+  .modal__name {
+    font-size: clamp(1.45rem, 6.5vw, 2rem);
+  }
+
+  .modal__body {
+    gap: 1rem;
+    padding-top: 0;
+  }
+
+  .modal__close {
+    position: fixed;
+    top: 0.9rem;
+    right: 0.9rem;
+    background-color: rgba(247, 240, 225, 0.96);
+  }
+}
+
+@media (max-width: 26rem) {
+  .cover__title {
+    font-size: clamp(2.9rem, 16.5vw, 4.2rem);
+  }
+
+  .cover__subtitle {
+    font-size: 0.95rem;
+  }
+
+  .navigation {
+    gap: 0.45rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  .navigation__button {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+
+  .navigation__meta {
+    min-width: 5rem;
+  }
+
+  .person__name {
+    font-size: clamp(1.3rem, 6.6vw, 1.7rem);
+  }
+}
+
+@media (max-height: 44rem) and (min-width: 48.0625rem) {
+  .cover__title {
+    font-size: clamp(3.2rem, 10vw, 6.5rem);
+  }
+
+  .person {
+    max-width: min(38rem, 54vh);
+  }
+
+  .person__decor {
+    display: none;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .person__overlay {
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-image: none;
+    opacity: 1;
+  }
+
+  .person__story {
+    font-size: 0.62rem;
+    padding: 0.4rem 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__track,
+  .navigation__bar-fill,
+  .intro--closing,
+  .modal,
+  .modal__dialog,
+  .person__media,
+  .person__overlay {
+    transition-duration: 0.01ms;
+  }
+
+  .status__spinner {
+    animation-duration: 1.6s;
+  }
+}

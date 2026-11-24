@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f2e8d5">
+  <meta name="description" content="Zaquesazipa Documental">
+  <title>Zaquesazipa · Documental</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="app">
+    <main class="carousel" id="carousel" aria-roledescription="carrusel" aria-label="Zaquesazipa Documental">
+      <div class="carousel__track" id="carouselTrack"></div>
+      <p class="carousel__status" id="carouselStatus" role="status" aria-live="polite"></p>
+    </main>
+
+    <div class="status" id="appStatus" role="status" aria-live="polite" hidden>
+      <span class="status__spinner" aria-hidden="true"></span>
+      <p class="status__text">Documental Zaquesazipa</p>
+    </div>
+
+    <section class="intro" id="intro" aria-labelledby="introTitle" aria-hidden="true" inert hidden>
+      
+      <div class="intro__inner">
+        <div class="intro__content">
+          <p class="intro__eyebrow">Documental</p>
+          <h2 class="intro__title" id="introTitle"></h2>
+          <p class="intro__lead" id="introLead"></p>
+          <div class="intro__description" id="introDescription"></div>
+        </div>
+
+        <div class="intro__media">
+          <div class="intro__video-wrap" id="introVideoWrap"></div>
+        </div>
+
+        <div class="intro__actions">
+          <button class="intro__button" id="introStart" type="button"></button>
+          <p class="intro__hint"></p>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navigation" id="navigation" aria-label="Documental Zaquesazipa" hidden>
+      <button class="navigation__button navigation__button--prev" id="prevButton" type="button" aria-label="Página anterior" aria-controls="carouselTrack">
+        <svg class="navigation__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M14.5 5.5 8 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+
+
+
+
+      <button class="navigation__button navigation__button--home"
+        id="homeButton"
+        type="button"
+        aria-label="Volver al inicio"
+        title="Volver al inicio">
+  <svg class="navigation__icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M3 10.5 12 3l9 7.5M5.5 9v11h13V9M9.5 20v-6h5v6"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </svg>
+</button>
+
+
+      
+      <div class="navigation__meta">
+        <p class="navigation__counter" aria-hidden="true">
+          <span class="navigation__current" id="pageCurrent">01</span>
+          <span class="navigation__separator">/</span>
+          <span class="navigation__total" id="pageTotal">01</span>
+        </p>
+        <div class="navigation__bar" aria-hidden="true">
+          <span class="navigation__bar-fill" id="pageProgress"></span>
+        </div>
+      </div>
+
+      <button class="navigation__button navigation__button--next" id="nextButton" type="button" aria-label="Página siguiente" aria-controls="carouselTrack">
+        <svg class="navigation__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M9.5 5.5 16 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div class="modal" id="personModal" aria-hidden="true" inert>
+      <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalName" aria-describedby="modalContext" tabindex="-1">
+        <button class="modal__close" id="modalClose" type="button" aria-label="Cerrar la historia">
+          <svg class="modal__close-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+
+        <div class="modal__grid">
+          <div class="modal__media">
+            <img class="modal__photo" id="modalPhoto" src="" alt="" width="640" height="640">
+            <div class="modal__brush" id="modalBrush">
+              <p class="modal__name" id="modalName"></p>
+            </div>
+          </div>
+
+          <div class="modal__body">
+          <p class="modal__context" id="modalContext"></p>
+            <div class="modal__video-wrap" id="modalVideoWrap" hidden></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="status status--error">
+        <p class="status__text">Este folleto necesita JavaScript para funcionar. Actívalo en tu navegador para verlo completo.</p>
+      </div>
+    </noscript>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

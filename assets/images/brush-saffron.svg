@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" preserveAspectRatio="none" aria-hidden="true">
+  <defs>
+    <filter id="rough-saffron" x="-12%" y="-35%" width="124%" height="170%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.014 0.1" numOctaves="3" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="18" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <path filter="url(#rough-saffron)" fill="#c69a45"
+    d="M34 78C104 48 170 60 254 52C344 44 446 46 540 60C566 64 578 80 562 96C540 118 462 128 368 128C268 128 158 124 86 118C50 115 30 106 26 94C23 86 26 82 34 78Z"/>
+</svg>

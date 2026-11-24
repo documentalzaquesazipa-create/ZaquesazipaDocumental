@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Mercy Christole";
+  src: local("Mercy Christole"),
+       url("../assets/fonts/mercy-christole.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "One Starry Night";
+  src: local("One Starry Night"),
+       url("../assets/fonts/one-starry-night.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root {
+  --color-cream: #f2e8d5;
+  --color-cream-soft: #f8f1e2;
+  --color-cream-deep: #e7d9bf;
+  --color-paper: #f7f0e1;
+
+  --color-ink: #355c4a;
+  --color-ink-deep: #28483a;
+  --color-ink-soft: #4a6f5c;
+  --color-olive: #b87945;
+  --color-olive-deep: #9c6236;
+  --color-terracotta: #a65e43;
+  --color-terracotta-deep: #8c4c35;
+  --color-saffron: #c69a45;
+
+  --color-text: #2b2a25;
+  --color-text-muted: #6d6455;
+  --color-line: rgba(53, 92, 74, 0.18);
+  --color-overlay: rgba(40, 72, 58, 0.62);
+  --color-focus: #a65e43;
+
+  --font-primary: "Mercy Christole", "Segoe Script", "Brush Script MT", "Lucida Handwriting", cursive;
+  --font-secondary: "Montserrat", "Brush Script MT", "Lucida Handwriting", cursive;
+  --font-body: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.25rem;
+  --space-2xl: 5rem;
+
+  --radius-organic: 3.5rem 1.75rem 4rem 2.25rem;
+  --radius-organic-alt: 2rem 4rem 2.25rem 4.5rem;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 18px 50px -24px rgba(53, 40, 24, 0.5);
+  --shadow-photo: 0 28px 60px -30px rgba(53, 40, 24, 0.65);
+
+  --transition-base: 260ms ease;
+  --transition-slide: 680ms cubic-bezier(0.65, 0.05, 0.36, 1);
+
+  --navigation-height: 4.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../assets/images/Textura\ de\ papel\ acuarela\ crema.png");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+p,
+figure {
+  margin: 0;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+::selection {
+  background-color: var(--color-saffron);
+  color: var(--color-ink-deep);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+

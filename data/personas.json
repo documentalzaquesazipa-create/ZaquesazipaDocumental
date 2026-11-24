@@ -1,0 +1,70 @@
+
+{
+  "titulo": "Zaquesazipa",
+  "subtitulo": "",
+  "intro": {
+    "titulo": "ZAQUESAZIPA",
+    "texto": "FESTIVAL • HUELLA Y CAMINO",
+    "descripcion": "Un recorrido por las memorias, los oficios y las historias de quienes dan vida al Festival Zaquesazipa.",
+    "video_youtube": "https://youtu.be/yWVkreE50to",
+    "boton": "Descubre sus historias"
+  },
+  "personas": [
+    {
+      "id": 1,
+      "nombre": "Beatriz",
+      "imagen": "assets/images/Beatriz.jpg",
+      "contexto_imagen": "<h3>Muñecas de trapo</h3><p>Desde los 12 años me dediqué a la confección. Aprendí a coser porque en el campo uno tiene que mirar a ver qué se inventa. Hace más de 40 años hago muñecas; antes hacía muñecos de peluche y otros trabajos, pero me fui dedicando a las muñecas de trapo. Las elaboro mitad a máquina y mitad a mano.</p><img src='assets/images/Beatriz2.jpg' alt='Beatriz Rojas'><p>Una de mis hijas me ayudaba a hacerlas. Hacíamos muñequitas pequeñas, grandes y hasta tarjetitas. Para mí, este oficio ha sido una manera de salir adelante y ser independiente. Yo trabajé mucho tiempo haciendo ropa deportiva para los colegios y también he elaborado muñecas. Me gusta porque veo que las niñas se fascinan con ellas.</p><p>Hoy en día las artesanías se están acabando. En los colegios ya no enseñan estas cosas y los jóvenes no se animan a aprender. Yo cuando monté el local les dije a muchas personas que les enseñaba gratis.</p><img src='assets/images/beatriz3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Marta Corrales",
+      "imagen": "assets/images/Marta.png",
+      "contexto_imagen": "<h3>Tradición que no se pueden dejar perder</h3><p>Desde pequeña veía tejer a mi abuelita y a mi mamá. Después estudié, hice mi profesión y trabajé en Ecuador, donde también aprendí otras técnicas en una escuela de artes y oficios, por ejemplo, tejeduría en fibras naturales. El arte es innato para mí. Yo nací con el arte.</p><img src='assets/images/marta2.jpg' alt=''><p>El tejido es una tradición que no se puede dejar perder. Además, me gusta porque puedo compartir con otras personas, dialogar y cambiar el ambiente de la casa. Estar tejiendo también es relajante y ayuda mucho para la salud mental.</p><img src='assets/images/marta3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 3,
+      "nombre": "Nidia Rengifo",
+      "imagen": "assets/images/Nidia.jpg",
+      "contexto_imagen": "<h3>Oficio del cuero</h3><p>Desde pequeña me gustó el trabajo con el cuero. Yo era empírica y hacía mis diseños en hojas cuadriculadas, porque en el colegio le enseñan a uno dibujo técnico, aunque en ese momento uno no piensa que lo va a necesitar a futuro</p><img src='assets/images/nidia2.jpg' alt=''><p>Después decidí estudiar. Empecé con un curso en Compensar y luego conocí la Escuela de Artes y Oficios Santo Domingo, donde realmente perfeccioné mis conocimientos en el oficio del cuero. Allí aprendí diferentes técnicas y también estudié en el SENA.</p><p>Siempre hay que estudiar y actualizarse. En este momento, por ejemplo, hay que aprender sobre inteligencia artificial y redes sociales. También quiero seguir complementando mis productos, innovar y encontrar maneras de combinarlos con otros materiales naturales.</p><img src='assets/images/nidia3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 4,
+      "nombre": "Fanny Díaz",
+      "imagen": "assets/images/Fanny.jpg",
+      "contexto_imagen": "<h3>Amigurumis</h3><p>Los amigurumis son una combinación matemática perfecta. Tú no puedes sacar un círculo si no tienes la cantidad necesaria de puntos, donde tienes que aumentar o disminuir para que te dé esa forma. Cada fila tiene una secuencia diferent</p><img src='assets/images/fanny3.jpg' alt=''><p>Enseñar a tejer también me ha permitido encontrarme con muchas historias. Tengo niños y niñas que aprenden a hacer sus propios muñecos. El tejido les enseña a sumar, restar, multiplicar y dividir, pero también a concentrarse.</p><p>Lo bonito es que pueden construir con sus manos las figuras que les gustan. Van avanzando poco a poco y, cuando ven el muñeco terminado, sienten la satisfacción de haberlo hecho ellos mismos.</p><p>El tejido es para grandes y chicos, hombres y mujeres. No tiene límite de edad. Además, desarrolla la creatividad para construir cosas que sirvan y que aporten.</p><img src='assets/images/fanny2.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 5,
+      "nombre": "Cristian Lara",
+      "imagen": "assets/images/Cristian.jpg",
+      "contexto_imagen": "<h3>Vivimos desde un impulso, desde la curiosidad</h3><p>Yo empecé en la cocina experimentando, siendo pragmático. A través de estos años me he ido formando más técnicamente en la cocina, pero creo que todo empezó desde una motivación propia.</p><p>Pienso que estamos muy colonizados a nivel cultural y eso también pasa por lo que comemos: una dieta basada en azúcares y carbohidratos. Entonces estamos mirando cómo buscar también el equilibrio en lo que ofrecemos, para ir acorde con esa lógica.</p><img src='assets/images/cristian2.jpg' alt=''><p>Nosotros no estamos compitiendo a nivel industrial, estamos haciendo una microempresa. En esa microempresa, esas bases de educación financiera serían importantes, precisamente para que la tasa de proyectos que fracasan fuera menor y las personas pudieran establecerse mejor.</p><p>El mercado también es un proceso dinamizado desde las políticas públicas. Por ejemplo, este sector de la carrera 15 está desvinculado del Parque Principal y de la Concha Acústica, sabiendo que está a cuadra y media. Esa desconexión se evidencia en diciembre, cuando el alumbrado conecta unos sectores, pero deja aislados otros.</p><img src='assets/images/Cristian3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 6,
+      "nombre": "Aisa Naranjo",
+      "imagen": "assets/images/Aisa.jpg",
+      "contexto_imagen": "<h3>Sublime</h3><p>Yo tuve la oportunidad de abrir el restaurante y, con mi hija María Paz, empezamos a montar todo desde cero. Duramos como tres meses; ella me ayudó con las recetas, montamos todo el mobiliario y después yo seguí solita porque ella ingresó a la universidad.</p><img src='assets/images/Aisa2.jpg' alt=''><p>Yo llegué hace 17 años. Ya vivíamos en Bogotá y queríamos vivir en la Sabana, en un lugar más tranquilo, donde hubiera más verde. Llegamos aquí a Funza y todavía había mucho verde. Al frente de mi casa había cultivos de fresas, estaban las vacas lecheras y siempre estuvimos muy rodeados del campo y de los cultivos. Nos parecía chévere poder estar en una parte así y tener a mis hijos rodeados de campo.</p><img src='assets/images/aisa3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Fernando Romero",
+      "imagen": "assets/images/Fernando.jpg",
+      "contexto_imagen": "<h3>Periodismo cultural</h3><p>Siempre me ha gustado la música. Soy el menor de siete hermanos y cada uno escuchaba algo diferente: música disco, vallenato, Silvio Rodríguez, Julio Jaramillo. Era un mundo de música que me empezó a enamorar. Desde pequeño me gustaba programar música y a los 15 o 16 años hice mi primer curso de DJ.</p><img src='assets/images/fernando2.jpg' alt=''><p>Tuve la fortuna de tener una mamá que cantaba música colombiana y un papá que nos enseñaba a conocer nuestra historia. Todo eso me nutrió: la música, el baile, la danza. Cuando entré a la universidad tenía claro que quería trabajar por la cultura.</p><img src='assets/images/fernando3.jpg' alt=''>",
+      "video_youtube": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Juan David Castaño",
+      "imagen": "assets/images/Juan-David.jpg",
+      "contexto_imagen": "<h3>RasMatiz</h3><p>Soy líder y compositor de la banda de reggae RasMatiz, un proyecto que fusiona el reggae con rock, twist y danzón para llevar crítica social, historias de amor y el mensaje espiritual rastafari. Para nosotros la ganja es una hierba ancestral y un portal a Jah tan sagrado como la oración, no una invitación al consumo.</p><img src='assets/images/juan-david2.jpg' alt=''><p>Empecé en la música a los 13 años tocando folclor en Guayabal de Síquima y componiendo baladas en el colegio. Al llegar a Funza conocí el reggae gracias a mi parcero Pajarito Sebastián y se volvió mi refugio espiritual y voz de protesta; además, fuera de los festivales, disfruto mucho adaptar covers de otros géneros al idioma del reggae.</p><img src='assets/images/juan-david3.jpg' alt=''>",
+      "video_youtube": ""
+    }
+  ]
+}
